@@ -1,21 +1,29 @@
 :root{
-  --cor-fundo:#2C1738;
-  --cor-destaque:#9750C0;
+  --cor-fundo:#2C1838;
+  --cor-destaque:#9754C0;
   --cor-texto: #fefefe;
 }
+*{
+  margin: 0;
+  padding: 0;
+}
+
 body{
   background-color: var(--cor-fundo);
   color:var(--cor-texto);
 }
+.apresentacao{
+  display: flex;
+  margin: 10%;
+  align-items: center;
+  justify-content: space-between;
+}
 strong{
   color: var(--cor-destaque);
 }
+.foto{
+  height: 490px;
+}
 a{
-  color: var(--cor-texto);
-  font-size: 18px;
-  text-decoration: none;
-  background-color: var(--cor-destaque);
-  padding: 10px 40px;
-  margin: 10px;
-  border-radius: 15px;
+  
 }
